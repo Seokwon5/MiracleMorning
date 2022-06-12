@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B36555C7556238A1EF1F0FCD /* Pods_MiracleMorning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AC8D2777C571106643CD54 /* Pods_MiracleMorning.framework */; };
 		FB855BE42844C58F001B01EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB855BE32844C58F001B01EA /* AppDelegate.swift */; };
 		FB855BE62844C58F001B01EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB855BE52844C58F001B01EA /* SceneDelegate.swift */; };
-		FB855BE82844C58F001B01EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB855BE72844C58F001B01EA /* ViewController.swift */; };
 		FB855BEB2844C58F001B01EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB855BE92844C58F001B01EA /* Main.storyboard */; };
 		FB855BED2844C592001B01EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB855BEC2844C592001B01EA /* Assets.xcassets */; };
 		FB855BF02844C592001B01EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB855BEE2844C592001B01EA /* LaunchScreen.storyboard */; };
+		FB855BF82844C618001B01EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB855BF72844C618001B01EA /* LoginViewController.swift */; };
+		FB855BFA2844F240001B01EA /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB855BF92844F240001B01EA /* EnterEmailViewController.swift */; };
+		FB9C6757284F337C0013FBB1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C6756284F337C0013FBB1 /* MainViewController.swift */; };
+		FB9C6759284F38C60013FBB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB9C6758284F38C60013FBB1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44E1F7962ADDFE3E191FAC2C /* Pods-MiracleMorning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracleMorning.debug.xcconfig"; path = "Target Support Files/Pods-MiracleMorning/Pods-MiracleMorning.debug.xcconfig"; sourceTree = "<group>"; };
+		7FF3EF2EECC546A4EDC9FE71 /* Pods-MiracleMorning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracleMorning.release.xcconfig"; path = "Target Support Files/Pods-MiracleMorning/Pods-MiracleMorning.release.xcconfig"; sourceTree = "<group>"; };
+		D6AC8D2777C571106643CD54 /* Pods_MiracleMorning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiracleMorning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB855BE02844C58F001B01EA /* MiracleMorning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiracleMorning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB855BE32844C58F001B01EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB855BE52844C58F001B01EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB855BE72844C58F001B01EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB855BEA2844C58F001B01EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB855BEC2844C592001B01EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB855BEF2844C592001B01EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB855BF12844C592001B01EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB855BF72844C618001B01EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB855BF92844F240001B01EA /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
+		FB9C6756284F337C0013FBB1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB9C6758284F38C60013FBB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B36555C7556238A1EF1F0FCD /* Pods_MiracleMorning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		035984F7427971523D895D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6AC8D2777C571106643CD54 /* Pods_MiracleMorning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		863E7170BF65BA863ADF3D21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E1F7962ADDFE3E191FAC2C /* Pods-MiracleMorning.debug.xcconfig */,
+				7FF3EF2EECC546A4EDC9FE71 /* Pods-MiracleMorning.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB855BD72844C58F001B01EA = {
 			isa = PBXGroup;
 			children = (
 				FB855BE22844C58F001B01EA /* MiracleMorning */,
 				FB855BE12844C58F001B01EA /* Products */,
+				863E7170BF65BA863ADF3D21 /* Pods */,
+				035984F7427971523D895D13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +88,14 @@
 			children = (
 				FB855BE32844C58F001B01EA /* AppDelegate.swift */,
 				FB855BE52844C58F001B01EA /* SceneDelegate.swift */,
-				FB855BE72844C58F001B01EA /* ViewController.swift */,
 				FB855BE92844C58F001B01EA /* Main.storyboard */,
 				FB855BEC2844C592001B01EA /* Assets.xcassets */,
 				FB855BEE2844C592001B01EA /* LaunchScreen.storyboard */,
+				FB855BF72844C618001B01EA /* LoginViewController.swift */,
+				FB855BF92844F240001B01EA /* EnterEmailViewController.swift */,
+				FB9C6756284F337C0013FBB1 /* MainViewController.swift */,
 				FB855BF12844C592001B01EA /* Info.plist */,
+				FB9C6758284F38C60013FBB1 /* GoogleService-Info.plist */,
 			);
 			path = MiracleMorning;
 			sourceTree = "<group>";
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB855BF42844C592001B01EA /* Build configuration list for PBXNativeTarget "MiracleMorning" */;
 			buildPhases = (
+				9254CF37E2DE8321A5DA4F61 /* [CP] Check Pods Manifest.lock */,
 				FB855BDC2844C58F001B01EA /* Sources */,
 				FB855BDD2844C58F001B01EA /* Frameworks */,
 				FB855BDE2844C58F001B01EA /* Resources */,
+				5F483010C11CFFF46575579A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB855BF02844C592001B01EA /* LaunchScreen.storyboard in Resources */,
+				FB9C6759284F38C60013FBB1 /* GoogleService-Info.plist in Resources */,
 				FB855BED2844C592001B01EA /* Assets.xcassets in Resources */,
 				FB855BEB2844C58F001B01EA /* Main.storyboard in Resources */,
 			);
@@ -133,14 +169,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F483010C11CFFF46575579A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiracleMorning/Pods-MiracleMorning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiracleMorning/Pods-MiracleMorning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiracleMorning/Pods-MiracleMorning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9254CF37E2DE8321A5DA4F61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiracleMorning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB855BDC2844C58F001B01EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB855BE82844C58F001B01EA /* ViewController.swift in Sources */,
+				FB855BF82844C618001B01EA /* LoginViewController.swift in Sources */,
 				FB855BE42844C58F001B01EA /* AppDelegate.swift in Sources */,
+				FB855BFA2844F240001B01EA /* EnterEmailViewController.swift in Sources */,
 				FB855BE62844C58F001B01EA /* SceneDelegate.swift in Sources */,
+				FB9C6757284F337C0013FBB1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +362,7 @@
 		};
 		FB855BF52844C592001B01EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E1F7962ADDFE3E191FAC2C /* Pods-MiracleMorning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,6 +374,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +392,7 @@
 		};
 		FB855BF62844C592001B01EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF3EF2EECC546A4EDC9FE71 /* Pods-MiracleMorning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +404,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
