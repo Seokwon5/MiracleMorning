@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B36555C7556238A1EF1F0FCD /* Pods_MiracleMorning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AC8D2777C571106643CD54 /* Pods_MiracleMorning.framework */; };
+		FB2D7E4F28576275001C35BA /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D7E4E28576275001C35BA /* AlarmViewController.swift */; };
+		FB2D7E52285767F3001C35BA /* AlarmListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D7E50285767F3001C35BA /* AlarmListCell.swift */; };
+		FB2D7E53285767F3001C35BA /* AlarmListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2D7E51285767F3001C35BA /* AlarmListCell.xib */; };
+		FB2D7E5528576B90001C35BA /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D7E5428576B90001C35BA /* Alarm.swift */; };
+		FB2D7E57285B1A72001C35BA /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D7E56285B1A72001C35BA /* AddAlarmViewController.swift */; };
 		FB855BE42844C58F001B01EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB855BE32844C58F001B01EA /* AppDelegate.swift */; };
 		FB855BE62844C58F001B01EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB855BE52844C58F001B01EA /* SceneDelegate.swift */; };
 		FB855BEB2844C58F001B01EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB855BE92844C58F001B01EA /* Main.storyboard */; };
@@ -23,6 +28,11 @@
 		44E1F7962ADDFE3E191FAC2C /* Pods-MiracleMorning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracleMorning.debug.xcconfig"; path = "Target Support Files/Pods-MiracleMorning/Pods-MiracleMorning.debug.xcconfig"; sourceTree = "<group>"; };
 		7FF3EF2EECC546A4EDC9FE71 /* Pods-MiracleMorning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracleMorning.release.xcconfig"; path = "Target Support Files/Pods-MiracleMorning/Pods-MiracleMorning.release.xcconfig"; sourceTree = "<group>"; };
 		D6AC8D2777C571106643CD54 /* Pods_MiracleMorning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiracleMorning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2D7E4E28576275001C35BA /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		FB2D7E50285767F3001C35BA /* AlarmListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListCell.swift; sourceTree = "<group>"; };
+		FB2D7E51285767F3001C35BA /* AlarmListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmListCell.xib; sourceTree = "<group>"; };
+		FB2D7E5428576B90001C35BA /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		FB2D7E56285B1A72001C35BA /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
 		FB855BE02844C58F001B01EA /* MiracleMorning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiracleMorning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB855BE32844C58F001B01EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB855BE52844C58F001B01EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,8 +104,13 @@
 				FB855BF72844C618001B01EA /* LoginViewController.swift */,
 				FB855BF92844F240001B01EA /* EnterEmailViewController.swift */,
 				FB9C6756284F337C0013FBB1 /* MainViewController.swift */,
+				FB2D7E4E28576275001C35BA /* AlarmViewController.swift */,
+				FB2D7E56285B1A72001C35BA /* AddAlarmViewController.swift */,
 				FB855BF12844C592001B01EA /* Info.plist */,
 				FB9C6758284F38C60013FBB1 /* GoogleService-Info.plist */,
+				FB2D7E50285767F3001C35BA /* AlarmListCell.swift */,
+				FB2D7E51285767F3001C35BA /* AlarmListCell.xib */,
+				FB2D7E5428576B90001C35BA /* Alarm.swift */,
 			);
 			path = MiracleMorning;
 			sourceTree = "<group>";
@@ -164,6 +179,7 @@
 				FB9C6759284F38C60013FBB1 /* GoogleService-Info.plist in Resources */,
 				FB855BED2844C592001B01EA /* Assets.xcassets in Resources */,
 				FB855BEB2844C58F001B01EA /* Main.storyboard in Resources */,
+				FB2D7E53285767F3001C35BA /* AlarmListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +234,10 @@
 			files = (
 				FB855BF82844C618001B01EA /* LoginViewController.swift in Sources */,
 				FB855BE42844C58F001B01EA /* AppDelegate.swift in Sources */,
+				FB2D7E52285767F3001C35BA /* AlarmListCell.swift in Sources */,
+				FB2D7E57285B1A72001C35BA /* AddAlarmViewController.swift in Sources */,
+				FB2D7E5528576B90001C35BA /* Alarm.swift in Sources */,
+				FB2D7E4F28576275001C35BA /* AlarmViewController.swift in Sources */,
 				FB855BFA2844F240001B01EA /* EnterEmailViewController.swift in Sources */,
 				FB855BE62844C58F001B01EA /* SceneDelegate.swift in Sources */,
 				FB9C6757284F337C0013FBB1 /* MainViewController.swift in Sources */,
