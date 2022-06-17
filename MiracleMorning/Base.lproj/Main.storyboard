@@ -333,7 +333,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="hxe-d6-U4d">
-                                <rect key="frame" x="181" y="154" width="193" height="50"/>
+                                <rect key="frame" x="181" y="153.5" width="193" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="193" id="DFI-P4-VSt"/>
                                     <constraint firstAttribute="height" constant="50" id="eVH-YA-104"/>

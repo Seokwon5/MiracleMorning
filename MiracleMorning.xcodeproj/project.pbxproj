@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B36555C7556238A1EF1F0FCD /* Pods_MiracleMorning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AC8D2777C571106643CD54 /* Pods_MiracleMorning.framework */; };
+		FB1D46FF285C78290012F1E3 /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1D46FE285C78290012F1E3 /* UNNotificationCenter.swift */; };
 		FB2D7E4F28576275001C35BA /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D7E4E28576275001C35BA /* AlarmViewController.swift */; };
 		FB2D7E52285767F3001C35BA /* AlarmListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D7E50285767F3001C35BA /* AlarmListCell.swift */; };
 		FB2D7E53285767F3001C35BA /* AlarmListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2D7E51285767F3001C35BA /* AlarmListCell.xib */; };
@@ -28,6 +29,7 @@
 		44E1F7962ADDFE3E191FAC2C /* Pods-MiracleMorning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracleMorning.debug.xcconfig"; path = "Target Support Files/Pods-MiracleMorning/Pods-MiracleMorning.debug.xcconfig"; sourceTree = "<group>"; };
 		7FF3EF2EECC546A4EDC9FE71 /* Pods-MiracleMorning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracleMorning.release.xcconfig"; path = "Target Support Files/Pods-MiracleMorning/Pods-MiracleMorning.release.xcconfig"; sourceTree = "<group>"; };
 		D6AC8D2777C571106643CD54 /* Pods_MiracleMorning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiracleMorning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1D46FE285C78290012F1E3 /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
 		FB2D7E4E28576275001C35BA /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		FB2D7E50285767F3001C35BA /* AlarmListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListCell.swift; sourceTree = "<group>"; };
 		FB2D7E51285767F3001C35BA /* AlarmListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmListCell.xib; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				FB9C6758284F38C60013FBB1 /* GoogleService-Info.plist */,
 				FB2D7E50285767F3001C35BA /* AlarmListCell.swift */,
 				FB2D7E51285767F3001C35BA /* AlarmListCell.xib */,
+				FB1D46FE285C78290012F1E3 /* UNNotificationCenter.swift */,
 				FB2D7E5428576B90001C35BA /* Alarm.swift */,
 			);
 			path = MiracleMorning;
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1D46FF285C78290012F1E3 /* UNNotificationCenter.swift in Sources */,
 				FB855BF82844C618001B01EA /* LoginViewController.swift in Sources */,
 				FB855BE42844C58F001B01EA /* AppDelegate.swift in Sources */,
 				FB2D7E52285767F3001C35BA /* AlarmListCell.swift in Sources */,

@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import UserNotifications
 
 class AlarmViewController: UITableViewController{
     var alarmList: [Alarm] = []
+    let userNotificationCenter = UNUserNotificationCenter.current()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +25,7 @@ class AlarmViewController: UITableViewController{
         alarmList = alarms()
     }
     
+    //새로운 알람 추가
     @IBAction func addAlarmButton(_ sender: UIBarButtonItem) {
         guard let addAlarmVC = storyboard?.instantiateViewController(withIdentifier: "AddAlarmViewController") as? AddAlarmViewController else { return }
         
@@ -38,6 +41,7 @@ class AlarmViewController: UITableViewController{
             self.alarmList = alarms
             
             UserDefaults.standard.set(try? PropertyListEncoder().encode(self.alarmList), forKey: "alarmList")
+            self.userNotificationCenter.addNotificationRequest(by: newAlram)
             
             self.tableView.reloadData()
         }
@@ -94,6 +98,8 @@ extension AlarmViewController {
         case .delete:
             self.alarmList.remove(at: indexPath.row)
             UserDefaults.standard.set(try? PropertyListEncoder().encode(self.alarmList), forKey: "alarmList")
+            
+            userNotificationCenter.removePendingNotificationRequests(withIdentifiers: [alarmList[indexPath.row].id])
             self.tableView.reloadData()
             return
         default:
