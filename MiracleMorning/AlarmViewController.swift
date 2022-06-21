@@ -33,15 +33,15 @@ class AlarmViewController: UITableViewController{
             guard let self = self else {return}
 
             var alarms = self.alarms()
-            let newAlram = Alarm(date: date, isON: true)
+            let newAlarm = Alarm(date: date, isON: true)
             
-            alarms.append(newAlram)
+            alarms.append(newAlarm)
             alarms.sort{ $0.date < $1.date }
             
             self.alarmList = alarms
             
             UserDefaults.standard.set(try? PropertyListEncoder().encode(self.alarmList), forKey: "alarmList")
-            self.userNotificationCenter.addNotificationRequest(by: newAlram)
+            self.userNotificationCenter.addNotificationRequest(by: newAlarm)
             
             self.tableView.reloadData()
         }

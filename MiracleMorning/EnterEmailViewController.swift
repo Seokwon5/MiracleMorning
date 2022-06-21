@@ -61,9 +61,9 @@ class EnterEmailViewController: UIViewController {
     
     private func showMainController() {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        let mainViewController = storyboard.instantiateViewController(identifier:"MainViewcontroller")
-        mainViewController.modalPresentationStyle = .fullScreen
-        navigationController?.show(mainViewController, sender: nil)
+        let tabBarController = storyboard.instantiateViewController(identifier:"tabBarController")
+        tabBarController.modalPresentationStyle = .fullScreen
+        navigationController?.show(tabBarController, sender: nil)
     }
     
     private func loginUser(withEmail email: String, password: String) {

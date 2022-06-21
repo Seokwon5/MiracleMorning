@@ -36,6 +36,8 @@ class AlarmListCell: UITableViewCell {
         
         if sender.isOn {
             userNotificationCenter.addNotificationRequest(by: alarmList[sender.tag])
+        } else {
+            userNotificationCenter.removePendingNotificationRequests(withIdentifiers: [alarmList[sender.tag].id])
         }
         
     }

@@ -11,25 +11,25 @@ import NotificationCenter
 import UserNotifications
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate{
    
     var userNotificationCenter : UNUserNotificationCenter?
     
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        //firebase 초기화
+        FirebaseApp.configure()
         
+        
+        //사용자로부터 permission 얻기.
         UNUserNotificationCenter.current().delegate = self
         
-        let authorizationOptions = UNAuthorizationOptions(arrayLiteral: [.alert, .badge, .sound])
-        userNotificationCenter?.requestAuthorization(options: authorizationOptions) { _, error in
+        let authorizationOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+        UNUserNotificationCenter.current().requestAuthorization(options: authorizationOptions) { _, error in
             if let error = error {
                 print("ERROR: notification authorization request \(error.localizedDescription)")
             }
         }
-        
-        
-        //firebase 초기화 
-        FirebaseApp.configure()
         
         return true
     }
